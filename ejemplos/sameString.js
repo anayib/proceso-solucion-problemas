@@ -73,6 +73,8 @@ console.log(arraysIguales(["abc", "d", "defg"],["abcddefg"]  )) // true
 
 //Refactorización
 
+console.log("Refactor");
+
 function arraysIgualesRef(arreglo1, arreglo2) {
   return arreglo1.join("") === arreglo2.join("");
 }
